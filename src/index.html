@@ -2,16 +2,45 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
-</head>
 
+    <title>PIM Solution Test Sites</title>
+    <!-- CSS (load bootstrap from a CDN) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+</head>
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+<div class="container-fluid">
+
+    <div class="row bg-dark" style=" text-align: center; font-weight: bold;color: whitesmoke; position: sticky;">
+        <div class="col-12 text-center pt-2 pb-2">
+            PIM Test Suite
+        </div>
+    </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="jumbotron mr-auto ml-auto">
+                    <h1 class="display-4">PIM Test Sites</h1>
+                    <p class="lead">This is a simple site for testing PIM on a dummy checkout page on all
+                        environments.</p>
+                    <hr class="my-4">
+                    <h5>Basic Information</h5>
+                    <ul>
+                        <li><b>Tenant Name:</b>  Shop Cashier (PIM Test)</li>
+                        <li><b>Customer ID:</b> 5e6681069d601a33618cd04d</li>
+                    </ul>
+                    <hr class="my-4">
+                    <p>Use the following links to access the relevant site:</p>
+                    <p class="lead">
+                        <a class="btn btn-success btn-lg" href="/dev" role="button">Dev</a>
+                        <a class="btn btn-primary btn-lg" href="/staging" role="button">Staging</a>
+                        <a class="btn btn-danger btn-lg" href="/prod" role="button">Prod</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
